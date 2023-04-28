@@ -1,0 +1,4 @@
+payload:
+  # 内容：需要固定IP地址以防止软件提示“盗号风险”或“异地登录”
+  # 数量：N条
+  - DOMAIN-KEYWORD,115.com
