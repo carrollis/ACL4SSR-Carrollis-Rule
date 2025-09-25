@@ -4,11 +4,11 @@ proxies:
     port: 7050
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: Pudding4242
+    password: "@password"
     plugin: obfs
-    plugin-opts:
-      mode: http
-      host: ""
+      plugin-opts:
+        mode: http
+        host: ""
     udp: true
 
   - name: "[SS] 重庆-Nalan 私人"
@@ -94,3 +94,4 @@ proxies:
       mode: http
       host: ""
     udp: true
+
