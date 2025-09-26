@@ -1,0 +1,12 @@
+proxies:
+  - name: "[SS] 扬州-Callis 私人"
+    server: lzj.carrollis.club
+    port: 7050
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: "@password"
+    plugin: obfs
+      plugin-opts:
+        mode: http
+        host: ""
+    udp: true
